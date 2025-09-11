@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+#box{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+#btn{   
+    background-color: #fdd8d8;
+    color: #383333;
+    box-shadow: inset 4px 4px 10px #fce1e1, inset -4px -4px 10px #e5d2d2;
+}
+
+#btn:hover{
+  box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;box-shadow: inset 2px 2px 5px #bcbcbc, inset -2px -2px 5px #ffffff, 2px 2px 5px #bcbcbc, -2px -2px 5px #ffffff;
+}
